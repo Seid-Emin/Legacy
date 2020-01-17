@@ -1,0 +1,34 @@
+/* ------- Logo ------- */
+.hideLogo {
+    opacity: 0;
+}
+
+/* ------- MenuBar ------- */
+.bar1-active {
+    top: 50%;
+}
+
+.bar2-active {
+    width: 100%;
+}
+
+.bar3-active {
+    top: 50%;
+    width: 100%;
+}
+
+/* ------- Nav ------- */
+.navActive {
+    opacity: 1;
+    z-index: 999;
+}
+
+/* ------- Works hovew ------- */
+.projectBG-active {
+    opacity: 1;
+    z-index: 5;
+}
+
+.hideItem {
+    opacity: .3
+}

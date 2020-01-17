@@ -1,0 +1,89 @@
+/* ------ Home/index ------ */
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.home_inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home_inner,
+.home_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.home_bg {
+    position: absolute;
+    z-index: 1;
+}
+
+.home_bg-img {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg-img/homeBG.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    z-index: 2;
+}
+
+.home_content-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.home_contect-headerWrap {
+    position: absolute;
+    top: 50%;
+    left: 365px;
+}
+
+.home_content-tag {
+    font-size: 14px;
+    font-weight: 300;
+    mix-blend-mode: difference;
+}
+
+.home_content-headerText {
+    font-size: 70px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.home_content-contact,
+.home_content-works {
+    position: absolute;
+    bottom: 5%;
+    color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home_content-contact {
+    left: 365px;
+    -webkit-transition: all;
+    transition: all;
+}
+
+.home_content-works {
+    right: 200px;
+    mix-blend-mode: difference;
+}

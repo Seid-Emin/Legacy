@@ -1,0 +1,725 @@
+/* -------Jannata Resort------- */
+* {
+    --color-black-: #141414;
+    --color-white-: #f9f9f9;
+}
+
+/* -------Jannata Resort project------- */
+
+.project {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.project_inner {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-color: #FFF;
+}
+
+.project_display-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_display {
+    width: 75%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .project_display {
+        width: 90%;
+    }
+}
+
+/* -------Jannata Resort bigImg------- */
+
+.project_bigImage {
+    width: 100%;
+    height: 110vh;
+}
+
+.project_bigImage-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* -------Jannata Resort project intro------- */
+
+.project_intro {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.project_intro-bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.project_intro-bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: .4;
+    z-index: 2;
+}
+
+.project_intro-scroll {
+    position: absolute;
+    left: 200px;
+    bottom: 230px;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project_intro-content-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.project_intro-content-wrap-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.project_intro-info-wrap {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 400px;
+    padding-bottom: 100px;
+}
+
+.project_intro-header {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.project_intro-header:first-child {
+    margin-bottom: 0;
+}
+
+.project_intro-description {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.project_intro-description:last-child {
+    margin: 0;
+}
+
+.project_intro-website-wrap {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.project_intro-website-line {
+    width: 50px;
+    height: 1px;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.project_intro-website {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-height: 700px) {
+    .project_intro-scroll {
+        left: 100px;
+        bottom: 145px;
+        font-size: 12px;
+    }
+
+    .project_intro-info-wrap {
+        padding: 0 250px;
+        padding-bottom: 50px;
+    }
+
+    .project_intro-header {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .project_intro-description {
+        font-size: 12px;
+    }
+
+    .project_intro-website-wrap {
+        bottom: 50px;
+        right: 100px;
+    }
+
+    .project_intro-website {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .project_intro-scroll {
+        left: 100px;
+        bottom: 145px;
+        font-size: 12px;
+    }
+
+    .project_intro-info-wrap {
+        padding: 0 250px;
+        padding-bottom: 50px;
+    }
+
+    .project_intro-header {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+
+    .project_intro-description {
+        font-size: 12px;
+    }
+
+    .project_intro-website-wrap {
+        bottom: 50px;
+        right: 100px;
+    }
+
+    .project_intro-website {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project_intro-scroll {
+        left: 60px;
+        bottom: 140px;
+    }
+
+    .project_intro-info-wrap {
+        padding: 0 200px;
+        padding-bottom: 50px;
+    }
+
+    .project_intro-header {
+        margin-bottom: 15px;
+    }
+
+    .project_intro-website-wrap {
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project_intro-scroll {
+        transform: rotate(0deg);
+        left: 60px;
+        bottom: 50px;
+    }
+
+    .project_intro-info-wrap {
+        padding: 0 60px;
+        padding-bottom: 100px;
+    }
+
+    .project_intro-header {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project_intro-scroll {
+        transform: rotate(0deg);
+        left: 30px;
+        bottom: 50px;
+    }
+
+    .project_intro-info-wrap {
+        padding: 0 30px;
+        padding-bottom: 100px;
+    }
+
+    .project_intro-website-wrap {
+        right: 30px;
+    }
+}
+
+
+/* -------Jannata Resort text------- */
+
+.project_text {
+    width: 100%;
+    padding: 150px 300px;
+    background-color: #FFF;
+    color: var(--color-black-);
+}
+
+.project_text-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project_text-text-wrap {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project_text-text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+}
+
+
+@media screen and (max-height: 700px) {
+    .project_text {
+        padding: 100px 200px;
+    }
+
+    .project_text-title {
+        width: 50%;
+    }
+
+    .project_text-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text-text {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text-title {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .project_text {
+        padding: 100px 200px;
+    }
+
+    .project_text-title {
+        width: 50%;
+    }
+
+    .project_text-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .project_text {
+        padding: 100px 100px;
+    }
+
+    .project_text-text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project_text {
+        padding: 80px 60px;
+    }
+
+    .project_text-text-wrap {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .project_text-title {
+        width: 100%;
+    }
+
+    .project_text-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project_text-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project_text {
+        padding: 60px 30px;
+    }
+}
+
+
+/* -------Jannata Resort text2------- */
+/* .project_text2 {
+    width: 100%;
+    padding: 150px 300px;
+    background-color: #FFF;
+    color: var(--color-black-);
+}
+
+.project_text2-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project_text2-text-wrap {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project_text2-text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+}
+
+
+@media screen and (max-height: 700px) {
+    .project_text2 {
+        padding: 100px 200px;
+    }
+
+    .project_text2-title {
+        width: 50%;
+    }
+
+    .project_text2-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text2-text {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text2-title {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .project_text2 {
+        padding: 100px 200px;
+    }
+
+    .project_text2-title {
+        width: 50%;
+    }
+
+    .project_text2-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .project_text2 {
+        padding: 100px 100px;
+    }
+
+    .project_text2-text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project_text2 {
+        padding: 80px 60px;
+    }
+
+    .project_text2-text-wrap {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .project_text2-title {
+        width: 100%;
+    }
+
+    .project_text2-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project_text2-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project_text2 {
+        padding: 60px 30px;
+    }
+} */
+
+
+/* -------Jannata Resort text3------- */
+
+/* .project_text3 {
+    width: 100%;
+    padding: 150px 300px;
+    background-color: #FFF;
+    color: var(--color-black-);
+}
+
+.project_text3-title {
+    width: 60%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project_text3-text-wrap {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project_text3-text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+}
+
+
+@media screen and (max-height: 700px) {
+    .project_text3 {
+        padding: 100px 200px;
+    }
+
+    .project_text3-title {
+        width: 50%;
+    }
+
+    .project_text3-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text3-text {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .project_text3-title {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .project_text3 {
+        padding: 100px 200px;
+    }
+
+    .project_text3-title {
+        width: 50%;
+    }
+
+    .project_text3-text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .project_text3 {
+        padding: 100px 100px;
+    }
+
+    .project_text3-text {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project_text3 {
+        padding: 80px 60px;
+    }
+
+    .project_text3-text-wrap {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .project_text3-title {
+        width: 100%;
+    }
+
+    .project_text3-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project_text3-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project_text3 {
+        padding: 60px 30px;
+    }
+} */
+
+
+/* -------Jannata Resort next project------- */
+
+.project_nextProject {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.project_nextProject-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.project_nextProject-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.project_nextProject-link-wrap {
+    position: absolute;
+    bottom: 250px;
+    left: 200px;
+    transition: opacity .5s ease;
+    z-index: 3;
+}
+
+.project_nextProject-link-wrap:hover {
+    opacity: .3;
+}
+
+.project_nextProject-link-subText {
+    font-size: 16px;
+}
+
+.project_nextProject-link {
+    font-size: 70px;
+    color: var(--color-white-);
+    font-weight: 600;
+}
+
+
+@media screen and (max-height: 700px) {
+    .project_nextProject-link-wrap {
+        bottom: 150px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .project_nextProject-link-wrap {
+        bottom: 150px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project_nextProject-link-wrap {
+        bottom: 300px;
+        left: 60px;
+    }
+
+    .project_nextProject-link {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project_nextProject-link-wrap {
+        bottom: 300px;
+        left: 30px;
+    }
+
+    .project_nextProject-link {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-height: 900px) and (max-width: 600px) {
+    .project_nextProject-link-wrap {
+        bottom: 130px;
+    }
+
+}
+
+@media screen and (max-height: 700px) and (max-width: 550px) {
+    .project_nextProject-link-subText {
+        font-size: 14px;
+    }
+
+    .project_nextProject-link {
+        font-size: 38px;
+    }
+}

@@ -1,0 +1,476 @@
+/* -------expertise------- */
+* {
+    --color-black-: #141414;
+    --color-white-: #f9f9f9;
+}
+
+/* -------header------- */
+
+.expertise {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.expertise_inner {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    position: relative;
+}
+
+.expertise_header-wrap {
+    width: 100%;
+}
+
+.expertise_header {
+    font-size: 8vw;
+    margin-left: 200px;
+    font-weight: 600;
+    background: url('../img/aboutImg/LetterBG.jpg') no-repeat center left;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.expertise_header-subtext-wrap {
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.expertise_header-subtext {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* -------BigImg------- */
+
+.expertise_bigImage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 100px;
+}
+
+.expertise_bigImage-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/expertiseImg/ExpertiseBG.jpg');
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.expertise_bigImage-text-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.expertise_bigImage-text {
+    margin-left: 200px;
+    font-size: 200px;
+    font-weight: 600;
+    mix-blend-mode: difference;
+}
+
+
+@media screen and (max-height: 700px) {
+    .expertise_bigImage-text {
+        margin-left: 88px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .expertise_bigImage-text {
+        font-size: 15vw;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_bigImage-text {
+        margin-left: 88px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expertise_bigImage-text {
+        margin-left: 52px;
+        font-size: 21vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expertise_bigImage-text {
+        margin: 20px 0;
+        margin-left: 26px;
+    }
+
+    .expertise_bigImage {
+        margin-top: 0;
+    }
+}
+
+/* -------Design------- */
+
+.expertise_design {
+    width: 100%;
+    background-color: #FFF;
+    color: var(--color-black-);
+    padding: 150px 350px;
+    display: flex;
+}
+
+.expertise_design-title {
+    font-size: 50px;
+
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.expertise_design-text-wrap {
+    margin-top: 60px;
+}
+
+.expertise_design-text {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .expertise_design {
+        padding: 150px 250px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_design {
+        padding: 150px 180px;
+    }
+
+    .expertise_design-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_design {
+        padding: 150px 120px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .expertise_design-title {
+        font-size: 32px;
+    }
+
+    .expertise_design-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expertise_design {
+        display: block;
+        padding: 100px 60px;
+    }
+
+    .expertise_design-text-wrap {
+        padding: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expertise_design {
+        padding: 100px 30px;
+    }
+
+    .expertise_design-title {
+        white-space: normal;
+    }
+}
+
+
+/* -------development------- */
+
+.expertise_development {
+    width: 100%;
+    background-color: #FFF;
+    color: var(--color-black-);
+    padding: 150px 350px;
+    padding-bottom: 80px;
+    display: flex;
+}
+
+.expertise_development-title {
+    font-size: 50px;
+
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.expertise_development-text-wrap {
+    margin-top: 60px;
+    padding-left: 60px;
+}
+
+.expertise_development-text {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .expertise_development {
+        padding: 150px 250px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_development {
+        padding: 150px 180px;
+    }
+
+    .expertise_development-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_development {
+        padding: 150px 120px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .expertise_development-title {
+        font-size: 32px;
+    }
+
+    .expertise_development-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expertise_development {
+        display: block;
+        padding: 100px 60px;
+        padding-bottom: 40px;
+    }
+
+    .expertise_development-text-wrap {
+        padding: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expertise_development {
+        padding: 100px 30px;
+        padding-bottom: 40px;
+    }
+
+    .expertise_development-title {
+        white-space: normal;
+    }
+}
+
+/* -------BrandDev------- */
+
+.expertise_brandDev {
+    width: 100%;
+    padding: 150px 350px;
+    display: flex;
+}
+
+.expertise_brandDev-title {
+    font-size: 50px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.expertise_brandDev-text-wrap {
+    margin-top: 60px;
+}
+
+.expertise_brandDev-text {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .expertise_brandDev {
+        padding: 150px 250px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_brandDev {
+        padding: 150px 180px;
+    }
+
+    .expertise_brandDev-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_brandDev {
+        padding: 150px 120px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .expertise_brandDev-title {
+        font-size: 32px;
+    }
+
+    .expertise_brandDev-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expertise_brandDev {
+        display: block;
+        padding: 100px 60px;
+    }
+
+    .expertise_brandDev-text-wrap {
+        padding: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expertise_brandDev {
+        padding: 100px 30px;
+    }
+
+    .expertise_brandDev-title {
+        white-space: normal;
+    }
+}
+
+/* -------DevLogos------- */
+
+.expertise_devLogos-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    padding-bottom: 80px;
+}
+
+.expertise_devLogos {
+    background: url('../img/expertiseImg/DevIcons.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 30vw;
+}
+
+.expertise_devLogos-mobile {
+    background: url('../img/expertiseImg/DevIconsMobile.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    width: 80%;
+    height: 80vw;
+}
+
+
+@media screen and (max-height: 700px) {
+    .expertise_header {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .expertise_header {
+        margin-left: 100px;
+    }
+
+    .expertise_header-subtext {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expertise {
+        padding-top: 180px;
+    }
+
+    .expertise_header {
+        margin-left: 60px;
+    }
+
+    .expertise_header-subtext-wrap {
+        padding: 0 60px;
+    }
+
+    .expertise_header-subtext {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .expertise_devLogos {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .expertise_header {
+        font-size: 10vw;
+    }
+
+    .expertise_header-subtext {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .expertise_devLogos {
+        display: none;
+    }
+
+    .expertise_devLogos-mobile {
+        display: block;
+        height: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expertise_header {
+        margin-left: 36px;
+    }
+
+    .expertise_header-subtext-wrap {
+        padding: 0 40px;
+    }
+}

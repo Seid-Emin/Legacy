@@ -1,0 +1,328 @@
+/* ------ logo and menu media ------ */
+@media screen and (max-height: 700px) {
+
+    /* ------ logo ------ */
+    .logo {
+        font-size: 32px;
+        top: 80px;
+        left: 100px;
+    }
+
+    /* ------ Menu ------ */
+    .menu-icon {
+        top: 65px;
+        right: 100px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-icon-wrap {
+        width: 30px;
+        height: 10px;
+    }
+
+    /* ------ Nav ------ */
+    .navLinks {
+        bottom: 13%;
+        left: 290px;
+    }
+
+    .nav-link {
+        font-size: 40px;
+    }
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        bottom: 12%;
+        right: 200px;
+    }
+
+    .nav-info_name {
+        font-size: 28px;
+    }
+
+    .nav-info_title {
+        font-size: 12px;
+    }
+
+    .nav-info-address {
+        font-size: 12px;
+    }
+
+    .nav-info-link {
+        font-size: 12px;
+    }
+
+    /* ------ Home ------ */
+    .home_contect-headerWrap {
+        top: 45%;
+        left: 240px;
+    }
+
+    .home_content-tag {
+        font-size: 12px;
+    }
+
+    .home_content-headerText {
+        font-size: 50px;
+    }
+
+    .home_content-contact {
+        left: 240px;
+        font-size: 12px;
+    }
+
+    .home_content-works {
+        right: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+
+    /* ------ Nav ------ */
+    .navLinks {
+        bottom: 10%;
+    }
+
+    .nav-link {
+        font-size: 35px;
+    }
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+
+    /* ------ Nav ------ */
+    .navLinks {
+        left: 200px;
+    }
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    /* ------ logo ------ */
+    .logo {
+        font-size: 32px;
+        top: 80px;
+        left: 100px;
+    }
+
+
+    /* ------ Menu ------ */
+    .menu-icon {
+        top: 65px;
+        right: 100px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-icon-wrap {
+        width: 30px;
+        height: 10px;
+    }
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        right: 200px;
+    }
+
+    /* ------ Home ------ */
+    .home_contect-headerWrap {
+        top: 45%;
+        left: 240px;
+    }
+
+    .home_content-tag {
+        font-size: 12px;
+    }
+
+    .home_content-contact {
+        left: 240px;
+        font-size: 12px;
+    }
+
+    .home_content-works {
+        right: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* ------ Nav ------ */
+    .navLinks {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /* ------ logo ------ */
+    .logo {
+        font-size: 32px;
+        top: 50px;
+        left: 60px;
+    }
+
+
+    /* ------ Menu ------ */
+    .menu-icon {
+        top: 40px;
+        right: 60px;
+        width: 60px;
+        height: 60px;
+    }
+
+    /* ------ Nav ------ */
+    .nav-link {
+        font-size: 40px;
+    }
+
+    .nav-list-number {
+        font-size: 10px;
+    }
+
+    .navLinks {
+        bottom: 30%;
+    }
+
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        bottom: 30%;
+        right: 60px;
+    }
+
+    /* ------ Home ------ */
+    .home_contect-headerWrap {
+        top: 45%;
+        left: 60px;
+    }
+
+    .home_content-contact {
+        left: 60px;
+        font-size: 12px;
+    }
+
+    .home_content-works {
+        right: 60px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    /* ------ Nav info ------ */
+    .nav-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    /* ------ Home ------ */
+    .home_contect-headerWrap {
+        top: 50%;
+    }
+
+    .home_content-headerText {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    /* ------ logo ------ */
+    .logo {
+        left: 30px;
+    }
+
+
+    /* ------ Menu ------ */
+    .menu-icon {
+        top: 40px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .menu-icon-wrap {
+        width: 30px;
+        height: 10px;
+    }
+
+    /* ------ Nav ------ */
+    .navLinks {
+        left: 60px;
+        bottom: 30%;
+    }
+
+    .nav-link {
+        font-size: 38px;
+        margin-left: 15px;
+    }
+
+    /* ------ Home ------ */
+    .home_contect-headerWrap {
+        top: 50%;
+        left: 30px;
+    }
+
+    .home_content-headerText {
+        font-size: 35px;
+    }
+
+    .home_content-contact {
+        left: 30px
+    }
+
+    .home_content-works {
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 900px) {
+
+    /* ------ Nav ------ */
+    .navLinks {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 600px) {
+
+    /* ------ logo ------ */
+    .logo {
+        top: 35px;
+    }
+
+
+    /* ------ Menu ------ */
+    .menu-icon {
+        top: 24px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    /* ------ Nav ------ */
+    .nav-link {
+        font-size: 32px;
+    }
+
+    /* ------ Home ------ */
+    .home_content-headerText {
+        font-size: 32px;
+    }
+}

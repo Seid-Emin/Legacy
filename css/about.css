@@ -1,0 +1,620 @@
+* {
+    --color-black-: #141414;
+    --color-white-: #f9f9f9;
+}
+
+/* ------ about ------ */
+.about {
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.about_inner {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    position: relative;
+}
+
+.about_header {
+    font-size: 20vw;
+    margin-left: 167px;
+    font-weight: 500;
+    margin-bottom: 150px;
+    background: url('../img/aboutImg/LetterBG.jpg') no-repeat center left;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_company-logos-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about_companyLogos {
+    width: 100%;
+    height: 50vw;
+    background: url('../img/aboutImg/CompanyLogos.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+
+.about_companyLogosMobile {
+    width: 100%;
+    height: 110vw;
+    background: url('../img/aboutImg/CompanyLogoMobile.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 40px 0;
+    display: none;
+}
+
+.about_black-section {
+    width: 100%;
+    background-color: #000;
+    padding: 150px 0 80px 0;
+}
+
+.about_awards-posters {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about_awards-posters-mobile {
+    width: 100%;
+    display: none;
+}
+
+
+@media screen and (max-height: 700px) {
+    .about {
+        padding-top: 150px;
+    }
+
+    .about_header {
+        margin-left: 74px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about {
+        padding-top: 150px;
+    }
+
+    .about_header {
+        font-size: 25vw;
+        margin-left: 74px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about_header {
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+
+    .about_companyLogos {
+        display: none
+    }
+
+    .about_companyLogosMobile {
+        display: block;
+    }
+
+    .about_awards-posters {
+        display: none;
+    }
+
+    .about_awards-posters-mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_companyLogosMobile {
+        width: 100%;
+        height: 120vw;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about {
+        padding-top: 150px;
+    }
+
+    .about_header {
+        font-size: 30vw;
+        margin-left: 22px;
+        margin-bottom: 80px;
+    }
+
+    .about_black-section {
+        padding: 80px 0;
+    }
+}
+
+/* ------ about intro ------ */
+
+.about_intro {
+    width: 100%;
+    padding: 0 300px;
+}
+
+.about_intro-section-title-wrap {
+    width: 100%;
+}
+
+.about_intro-section-text {
+    color: var(--color-black-);
+    ;
+}
+
+.section-text-title {
+    font-size: 50px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.about_intro-section-text-text-wrap {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.section-text-text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about_intro-section-awardsBadge {
+    width: 40%;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-height: 700px) {
+    .about_intro {
+        padding: 0 150px;
+    }
+
+    .section-text-title {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .section-text-text {
+        width: 50%;
+        padding-right: 50px;
+    }
+
+    .about_intro-section-awardsBadge {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about_intro {
+        padding: 0 150px;
+    }
+
+    .section-text-title {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .section-text-text {
+        width: 50%;
+    }
+
+    .about_intro-section-awardsBadge {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about_intro {
+        padding: 0 60px;
+    }
+
+    .section-text-title {
+        font-size: 40px;
+    }
+
+    .about_intro-section-text-text-wrap {
+        margin-top: 60px;
+    }
+
+    .section-text-text {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .about_intro-section-awardsBadge {
+        width: 50%;
+        align-self: flex-start;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-text-title {
+        font-size: 6vw;
+    }
+
+    .about_intro-section-text-text-wrap {
+        margin-top: 20px;
+    }
+
+    .section-text-text {
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+
+    .about_intro-section-awardsBadge {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_intro {
+        padding: 0 30px;
+    }
+}
+
+/* ------ about Team ------ */
+
+.about_team-image-section {
+    width: 100%;
+    height: 97vh;
+    position: relative;
+    margin: 200px 0;
+
+}
+
+.about_team-image-section-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_team-image-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: url('../img/aboutImg/About-Team-Image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about_team-image-bg-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about_team-image-section-content {
+    z-index: 3;
+}
+
+.about_team-image-section-content-text {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.about_team-image-section-subText-wrap {
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.about_team-image-section-subText {
+    font-size: 16px;
+    color: var(--color-white-);
+}
+
+.about_team-image-section-subText:hover {
+    opacity: .5;
+}
+
+.about_team-image-section-content--mobile {
+    width: 100%;
+    display: none;
+}
+
+@media screen and (max-height: 700px) {
+    .about_team-image-section-content-text {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about_team-image-section-content-text {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .about_team-image-section {
+        height: 50vw;
+        margin: 100px 0;
+    }
+
+    .about_team-image-section-content-text {
+        font-size: 4vw;
+    }
+
+    .about_team-image-section-subText-wrap {
+        margin-top: 20px;
+    }
+
+    .about_team-image-section-subText {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_team-image-section-content {
+        display: none;
+    }
+
+    .about_team-image-section {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_team-image-section {
+        height: 50vh;
+    }
+}
+
+/* ------ Team Image mobile ------ */
+.teamImageMobile {
+    width: 100%;
+    display: none;
+    position: relative;
+    color: var(--color-black-);
+    padding-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.about_team-image-section-content-text--mobile {
+    font-size: 7vw;
+    font-weight: 600;
+}
+
+.about_team-image-section-subText-wrap--mobile {
+    margin-top: 20px;
+}
+
+.about_team-image-section-subText--mobile {
+    font-size: 16px;
+    color: var(--color-black-);
+}
+
+.about_team-image-section-subText--mobile:hover {
+    opacity: .5;
+}
+
+
+@media screen and (max-width: 700px) {
+    .teamImageMobile {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .about_team-image-section-content-text {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .teamImageMobile {
+        padding-left: 30px;
+    }
+
+    .about_team-image-section-subText--mobile {
+        font-size: 12px;
+    }
+}
+
+/* ------ about Services ------ */
+
+.about_services {
+    width: 100%;
+    color: var(--color-black-);
+    position: relative;
+    padding: 0 300px;
+}
+
+.about_services-title-wrap {
+    width: 100%;
+}
+
+.about_services-title-text {
+    font-size: 50px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.about_services-text-text-wrap {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about_services-text-text {
+    width: 50%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+@media screen and (max-height: 700px) {
+    .about_services {
+        padding: 0 150px;
+    }
+
+    .about_services-title-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about_services {
+        padding: 0 150px;
+    }
+
+    .about_services-title-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about_services {
+        padding: 0 60px;
+    }
+
+    .about_services-text-text-wrap {
+        margin-top: 60px;
+    }
+
+    .about_services-text-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about_services-title-text {
+        font-size: 6vw;
+    }
+
+    .about_services-text-text-wrap {
+        margin-top: 20px;
+    }
+
+    .about_services-text-text {
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_services {
+        padding: 0 30px;
+    }
+}
+
+/* ------ about awards ------ */
+.about_awards-text {
+    width: 100%;
+    padding: 0 300px;
+}
+
+.about_awards-title-wrap {
+    width: 100%;
+}
+
+.about_awards-title-text {
+    font-size: 50px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.about_awards-text-text-wrap {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about_awards-text-text {
+    width: 50%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+@media screen and (max-height: 700px) {
+    .about_awards-text {
+        padding: 0 150px;
+    }
+
+    .about_awards-title-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about_awards-text {
+        padding: 0 150px;
+    }
+
+    .about_awards-title-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about_awards-text {
+        padding: 0 60px;
+    }
+
+    .about_awards-title-text {
+        font-size: 40px;
+    }
+
+    .about_awards-text-text-wrap {
+        margin-top: 60px;
+    }
+
+    .about_awards-text-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about_awards-title-text {
+        font-size: 6vw;
+    }
+
+    .about_awards-text-text-wrap {
+        margin-top: 20px;
+    }
+
+    .about_awards-text-text {
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_awards-text {
+        padding: 0 30px;
+    }
+}
