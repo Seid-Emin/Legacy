@@ -1,13 +1,17 @@
 /* -------Jannata Resort project images------- */
 
 .project_intro-bg_jannataResort {
-    background: url('../../works/JannataResortImg/ProjectBG.jpg');
+    background: url('../../img/works/jannata/banner.jpg');
 }
 
 .project_bigImage-image_jannataResort {
-    background: url('../../works/JannataResortImg/Works-Mockup.jpg');
+    background: url('../../img/works/jannata/full1.jpg');
 }
 
-.project_prev-SamsaraResort {}
+.project_prev-SamsaraResort {
+    background: url('../../img/works/samsara/banner.jpg');
+}
 
-.project_next-theRelationshift {}
+.project_next-theRelationshift {
+    background: url('../../img/works/relationshift/banner.jpg');
+}

@@ -20,11 +20,13 @@
     height: 100%;
     max-width: 1920px;
     background-color: #FFF;
+    position: relative;
 }
 
 .project_display-wrap {
     width: 100%;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -623,14 +625,37 @@
 } */
 
 
-/* -------Jannata Resort next project------- */
+/* -------Jannata Resort prev - next project------- */
 
-.project_nextProject {
+.prev-nextProject-window {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.prev-nextProject-wrap {
+    display: flex;
+    position: relative;
+    background-color: #141414;
+
+}
+
+.project_prevProject,
+.project_nextProject,
+.projectMobile-wrap {
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
+.project_prevProject-bg,
 .project_nextProject-bg {
     position: absolute;
     width: 100%;
@@ -641,6 +666,7 @@
     z-index: 1;
 }
 
+.project_prevProject-content,
 .project_nextProject-content {
     position: absolute;
     width: 100%;
@@ -648,6 +674,7 @@
     z-index: 2;
 }
 
+.project_prevProject-link-wrap,
 .project_nextProject-link-wrap {
     position: absolute;
     bottom: 250px;
@@ -656,14 +683,17 @@
     z-index: 3;
 }
 
+.project_prevProject-link-wrap:hover,
 .project_nextProject-link-wrap:hover {
     opacity: .3;
 }
 
+.project_prevProject-link-subText,
 .project_nextProject-link-subText {
     font-size: 16px;
 }
 
+.project_prevProject-link,
 .project_nextProject-link {
     font-size: 70px;
     color: var(--color-white-);
@@ -672,6 +702,8 @@
 
 
 @media screen and (max-height: 700px) {
+
+    .project_prevProject-link-wrap,
     .project_nextProject-link-wrap {
         bottom: 150px;
         left: 105px;
@@ -679,6 +711,8 @@
 }
 
 @media screen and (max-width: 1400px) {
+
+    .project_prevProject-link-wrap,
     .project_nextProject-link-wrap {
         bottom: 150px;
         left: 105px;
@@ -686,28 +720,48 @@
 }
 
 @media screen and (max-width: 900px) {
-    .project_nextProject-link-wrap {
-        bottom: 300px;
-        left: 60px;
+
+    .project_prevProject-link-wrap {
+        bottom: 50%;
+        left: 10%;
     }
 
+
+    .project_nextProject-link-wrap {
+        text-align: end;
+        bottom: 50%;
+        right: 10%;
+    }
+
+    .project_prevProject-link,
     .project_nextProject-link {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .project_nextProject-link-wrap {
-        bottom: 300px;
-        left: 30px;
+    .prev-nextProject-window {
+        overflow: hidden;
     }
 
+    .project_prevProject-link-wrap {
+        bottom: 50%;
+        left: 10px;
+    }
+
+
+    .project_prevProject-link,
     .project_nextProject-link {
-        font-size: 50px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-height: 900px) and (max-width: 600px) {
+    .prev-nextProject-window {
+        overflow: hidden;
+    }
+
+    .project_prevProject-link-wrap,
     .project_nextProject-link-wrap {
         bottom: 130px;
     }
@@ -715,10 +769,13 @@
 }
 
 @media screen and (max-height: 700px) and (max-width: 550px) {
+
+    .project_prevProject-link-subText,
     .project_nextProject-link-subText {
         font-size: 14px;
     }
 
+    .project_prevProject-link,
     .project_nextProject-link {
         font-size: 38px;
     }
