@@ -695,7 +695,7 @@
 
 .project_prevProject-link,
 .project_nextProject-link {
-    font-size: 55px;
+    font-size: 70px;
     color: var(--color-white-);
     font-weight: 600;
 }
@@ -722,6 +722,14 @@
         text-align: end;
         right: 20%;
         left: 20px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .project_prevProject-link,
+    .project_nextProject-link {
+        font-size: 55px;
     }
 }
 
