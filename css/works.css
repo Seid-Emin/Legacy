@@ -42,53 +42,11 @@
     height: 100%;
     opacity: 0;
     z-index: 1;
-    transition: all .6s ease;
-    transition-property: opacity z-index;
-}
-
-.works_bg-project-image-1 {
-    background: url('../img/works/prodotti/banner.jpg');
-}
-
-.works_bg-project-image-2 {
-    background: url('../img/works/samsara/banner.jpg');
-}
-
-.works_bg-project-image-3 {
-    background: url('../img/works/jannata/banner.jpg');
-}
-
-.works_bg-project-image-4 {
-    background: url('../img/works/relationshift/banner.jpg');
-}
-
-.works_bg-project-image-5 {
-    background: url('../img/works/clorova/banner.jpg');
-}
-
-.works_bg-project-image-6 {
-    background: url('../img/works/kokoro/');
-}
-
-.works_bg-project-image-7 {
-    background: url('../img/works/apprentice-search/banner.jpg');
-}
-
-.works_bg-project-image-8 {
-    background: url('../img/works/mcd/banner.jpg');
-}
-
-.works_bg-project-image-1,
-.works_bg-project-image-2,
-.works_bg-project-image-3,
-.works_bg-project-image-4,
-.works_bg-project-image-5,
-.works_bg-project-image-6,
-.works_bg-project-image-7,
-.works_bg-project-image-8 {
-    background-position: center;
+    background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all .6s ease;
+    transition-property: opacity z-index;
 }
 
 .works_project-links-wrap {

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     --color-black-: #141414;
-    --color-white-: #141414;
+    --color-white-: #f9f9f9;
 }
 
 body {
@@ -170,6 +170,21 @@ ul {
     margin-left: 40px;
 }
 
+.menu-icon,
+.home_content-contact,
+.home_content-works {
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.home_content-contact:hover,
+.home_content-works:hover,
+.menu-icon:hover,
+.logo:hover,
+.nav-link:hover {
+    opacity: .5;
+}
+
 /* ------- Nav info ------- */
 .nav-info {
     position: absolute;
@@ -213,6 +228,7 @@ ul {
 }
 
 .nav-info-link {
+    color: var(--color-white-);
     font-size: 14px;
     font-weight: 300;
     margin-right: 10px;
