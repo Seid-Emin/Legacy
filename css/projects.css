@@ -695,7 +695,7 @@
 
 .project_prevProject-link,
 .project_nextProject-link {
-    font-size: 70px;
+    font-size: 55px;
     color: var(--color-white-);
     font-weight: 600;
 }
@@ -716,6 +716,12 @@
     .project_nextProject-link-wrap {
         bottom: 150px;
         left: 105px;
+    }
+
+    .project_nextProject-link-wrap {
+        text-align: end;
+        right: 20%;
+        left: 20px;
     }
 }
 
