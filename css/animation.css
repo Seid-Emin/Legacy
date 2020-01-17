@@ -23,12 +23,12 @@
     z-index: 999;
 }
 
-/* ------- Works hovew ------- */
+/* ------- Works hover ------- */
 .projectBG-active {
     opacity: 1;
     z-index: 5;
 }
 
 .hideItem {
-    opacity: .3
+    opacity: .2
 }
