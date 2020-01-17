@@ -10,7 +10,9 @@ $(document).ready(function () {
 
 
     // hover efect on projects
-    $('.works_project-link-list li').hover(function () {
+
+    /* ------- Works hover ------- */
+    $('.works_project-link-list-item').hover(function () {
         var classOfHoveredLink = $(this).attr('class').replace('works_project-link-list-item ', '');
         var imgClassToShow = $('.works_bg-project-image-wrap-inner div').hasClass(`works_bg-project-${classOfHoveredLink}`);
         if (imgClassToShow) {
@@ -22,7 +24,21 @@ $(document).ready(function () {
         }
     });
 
-
+    /* ------- Prev-Next hover ------- */
+    $('.project-prevNext div').hover(function () {
+        var classOfHoveredLinkPrev = $(this).attr('class').replace('project_prevProject-link-wrap ', '');
+        var classOfHoveredLinkNext = $(this).attr('class').replace('project_nextProject-link-wrap ', '');
+        var imgClassToShowPrev = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkPrev}`);
+        var imgClassToShowNext = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkNext}`);
+        if (imgClassToShowPrev || imgClassToShowNext) {
+            $('.project-' + classOfHoveredLinkPrev).toggleClass('projectBG-active');
+            $('.project-' + classOfHoveredLinkNext).toggleClass('projectBG-active');
+            $('.menu-icon').toggleClass('hideItem');
+            $('.logo').toggleClass('hideItem');
+            $('.project-prevNext div').toggleClass('hideItem');
+            $(this).removeClass('hideItem');
+        }
+    });
 
 
 

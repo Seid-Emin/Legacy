@@ -634,7 +634,6 @@
     top: 0;
     left: 0;
     display: flex;
-    opacity: 0;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -660,10 +659,13 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    transition: .5s ease-in;
+    transition-property: opacity, z-index;
 }
 
 .project_prevProject-content,
@@ -681,11 +683,6 @@
     left: 200px;
     transition: opacity .5s ease;
     z-index: 3;
-}
-
-.project_prevProject-link-wrap:hover,
-.project_nextProject-link-wrap:hover {
-    opacity: .3;
 }
 
 .project_prevProject-link-subText,
