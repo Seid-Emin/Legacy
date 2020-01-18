@@ -61,6 +61,16 @@
     background: url('../../img/works/kokoro/full2.jpg');
 }
 
+/* -------Kokoro project images------- */
+
+.project_intro-bg_apprenticeSearch {
+    background: url('../../img/works/apprentice-search/banner.jpg');
+}
+
+.project_bigImage-image_apprenticeSearch {
+    background: url('../../img/works/apprentice-search/full1.jpg');
+}
+
 
 
 
