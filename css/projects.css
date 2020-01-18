@@ -585,17 +585,6 @@
     }
 }
 
-@media screen and (max-height: 900px) and (max-width: 600px) {
-    .prev-nextProject-window {
-        overflow: hidden;
-    }
-
-    .project_prevProject-link-wrap,
-    .project_nextProject-link-wrap {
-        bottom: 130px;
-    }
-
-}
 
 @media screen and (max-height: 700px) and (max-width: 550px) {
 
