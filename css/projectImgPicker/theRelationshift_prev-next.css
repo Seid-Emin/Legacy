@@ -1,0 +1,19 @@
+/* -------Samsara Resort project images------- */
+
+.project_intro-bg_theRelationshift {
+    background: url('../../img/works/relationshift/banner.jpg');
+}
+
+.project_bigImage-image_theRelationshift {
+    background: url('../../img/works/relationshift/full1.jpg');
+}
+
+/* ------- Previous project ------- */
+.project-jannataResort {
+    background: url('../../img/works/jannata/banner.jpg');
+}
+
+/* ------- Next project ------- */
+.project-clorovaProduction {
+    background: url('../../img/works/clorova/banner.jpg');
+}
