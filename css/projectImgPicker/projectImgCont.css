@@ -26,7 +26,7 @@
 }
 
 
-/* -------Samsara Resort project images------- */
+/* -------The Relationshift project images------- */
 
 .project_intro-bg_theRelationshift {
     background: url('../../img/works/relationshift/banner.jpg');
@@ -34,6 +34,17 @@
 
 .project_bigImage-image_theRelationshift {
     background: url('../../img/works/relationshift/full1.jpg');
+}
+
+
+/* -------Clorova Production project images------- */
+
+.project_intro-bg_clorovaProduction {
+    background: url('../../img/works/clorova/banner.jpg');
+}
+
+.project_bigImage-image_clorovaProduction {
+    background: url('../../img/works/clorova/full1.jpg');
 }
 
 

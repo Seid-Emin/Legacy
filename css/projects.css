@@ -32,7 +32,7 @@
 }
 
 .project_display {
-    width: 75%;
+    width: 60%;
     margin-bottom: 8.5vw;
 }
 
@@ -314,7 +314,7 @@
 }
 
 
-/* -------Jannata Resort text------- */
+/* ------- Text ------- */
 
 .project_text {
     width: 100%;
@@ -347,7 +347,7 @@
 
 @media screen and (max-height: 700px) {
     .project_text {
-        padding: 100px 200px;
+        padding: 100px 250px;
     }
 
     .project_text-title {
@@ -373,7 +373,7 @@
 
 @media screen and (max-width: 1400px) {
     .project_text {
-        padding: 100px 200px;
+        padding: 100px 250px;
     }
 
     .project_text-title {
@@ -386,9 +386,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .project_text {
-        padding: 100px 100px;
-    }
 
     .project_text-text {
         width: 50%;
