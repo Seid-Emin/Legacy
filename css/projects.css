@@ -303,6 +303,10 @@
         bottom: 50px;
     }
 
+    .project_intro-website-line {
+        display: none;
+    }
+
     .project_intro-info-wrap {
         padding: 0 30px;
         padding-bottom: 100px;
@@ -553,7 +557,7 @@
 
 @media screen and (max-width: 600px) {
     .prev-nextProject-wrap {
-        height: 150px;
+        height: 25vh;
     }
 
     .prev-nextProject-window {
@@ -575,12 +579,9 @@
         left: 10px;
     }
 
-
-
-
     .project_prevProject-link,
     .project_nextProject-link {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
@@ -600,7 +601,7 @@
 
     .project_prevProject-link-subText,
     .project_nextProject-link-subText {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .project_prevProject-link-wrap,
@@ -610,7 +611,7 @@
 
     .project_prevProject-link,
     .project_nextProject-link {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
