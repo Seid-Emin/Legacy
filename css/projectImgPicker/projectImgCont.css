@@ -47,6 +47,20 @@
     background: url('../../img/works/clorova/full1.jpg');
 }
 
+/* -------Kokoro project images------- */
+
+.project_intro-bg_kokoro {
+    background: url('../../img/works/kokoro/banner.jpg');
+}
+
+.project_bigImage-image_kokoro1 {
+    background: url('../../img/works/kokoro/full1.jpg');
+}
+
+.project_bigImage-image_kokoro2 {
+    background: url('../../img/works/kokoro/full2.jpg');
+}
+
 
 
 
