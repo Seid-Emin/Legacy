@@ -567,7 +567,9 @@
 
     .prev-nextProject-window {
         overflow: hidden;
-        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
     }
 
     .project_prevProject,
@@ -580,9 +582,9 @@
         bottom: 35%;
     }
 
-    .project_prevProject-link-wrap {
+    /* .project_prevProject-link-wrap {
         left: 10px;
-    }
+    } */
 
     .project_prevProject-link,
     .project_nextProject-link {

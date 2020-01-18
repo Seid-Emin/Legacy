@@ -61,7 +61,7 @@
     background: url('../../img/works/kokoro/full2.jpg');
 }
 
-/* -------Kokoro project images------- */
+/* -------Apprentice Search project images------- */
 
 .project_intro-bg_apprenticeSearch {
     background: url('../../img/works/apprentice-search/banner.jpg');
@@ -71,6 +71,19 @@
     background: url('../../img/works/apprentice-search/full1.jpg');
 }
 
+/* -------McDonald's Manila project images------- */
+
+.project_intro-bg_mcd {
+    background: url('../../img/works/mcd/banner.jpg');
+}
+
+.project_bigImage-image_mcd1 {
+    background: url('../../img/works/mcd/full1.jpg');
+}
+
+.project_bigImage-image_mcd2 {
+    background: url('../../img/works/mcd/full2.jpg');
+}
 
 
 
