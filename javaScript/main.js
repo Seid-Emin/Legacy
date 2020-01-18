@@ -40,6 +40,11 @@ $(document).ready(function () {
         }
     });
 
+    // change background-color and text color according to the currect page
+    var setBgColor = $('.project').attr('class').replace('project project_', '');
+    $('.project_text').addClass('bg-' + setBgColor).addClass('project_text-' + setBgColor);
+    $('.project_display-wrap').addClass('bg-' + setBgColor);
+
 
 
 

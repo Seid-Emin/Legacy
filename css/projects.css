@@ -36,6 +36,27 @@
     margin-bottom: 8.5vw;
 }
 
+.mobileWrap {
+    position: relative;
+}
+
+.mobileImg {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.mobileImgContainer {
+    width: 30%;
+    margin: 1.2%;
+    height: auto;
+}
+
+.mobileDisplay {
+    width: 100%;
+}
+
+
 .project_display:last-child {
     margin-bottom: 0;
 }
@@ -568,4 +589,43 @@
     .project_nextProject-link {
         font-size: 38px;
     }
+}
+
+
+/* Project Different bg-colors and text */
+.bg-prodottiFurniture {
+    background-color: #2d2e2b;
+}
+
+.bg-samsaraResort {
+    background-color: #3b3e47;
+}
+
+.bg-jannataResort,
+.bg-theRelationshift,
+.bg-apprenticeSearch,
+.bg-mcd {
+    background-color: #E1E6ED;
+}
+
+.bg-clorovaProduction {
+    background-color: #262634;
+}
+
+.bg-kokoro {
+    background-color: #fff;
+}
+
+.project_text-prodottiFurniture,
+.project_text-samsaraResort,
+.project_text-clorovaProduction {
+    color: #fff;
+}
+
+.project_text-jannataResort,
+.project_text-theRelationshift,
+.project_text-kokoro,
+.project_text-apprenticeSearch,
+.project_text-mcd {
+    color: #000;
 }

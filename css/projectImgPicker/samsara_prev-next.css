@@ -1,0 +1,15 @@
+/* -------Samsara Resort project images------- */
+
+.project_intro-bg_samsaraResort {
+    background: url('../../img/works/samsara/banner.jpg');
+}
+
+/* ------- Previous project ------- */
+.project-prodittiFurniture {
+    background: url('../../img/works/prodotti/banner.jpg');
+}
+
+/* ------- Next project ------- */
+.project-jannataResort {
+    background: url('../../img/works/jannata/banner.jpg');
+}
