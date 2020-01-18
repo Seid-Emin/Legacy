@@ -33,8 +33,19 @@
 
 .project_display {
     width: 75%;
+    margin-bottom: 8.5vw;
 }
 
+.project_display:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .project_display {
+        width: 90%;
+        margin-bottom: 10vw;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .project_display {
@@ -391,239 +402,6 @@
         padding: 60px 30px;
     }
 }
-
-
-/* -------Jannata Resort text2------- */
-/* .project_text2 {
-    width: 100%;
-    padding: 150px 300px;
-    background-color: #FFF;
-    color: var(--color-black-);
-}
-
-.project_text2-title {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.project_text2-text-wrap {
-    width: 100%;
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.project_text2-text {
-    width: 40%;
-    font-size: 20px;
-    line-height: 40px;
-    margin-bottom: 40px;
-    padding-right: 100px;
-}
-
-
-@media screen and (max-height: 700px) {
-    .project_text2 {
-        padding: 100px 200px;
-    }
-
-    .project_text2-title {
-        width: 50%;
-    }
-
-    .project_text2-text {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .project_text2-text {
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .project_text2-title {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .project_text2 {
-        padding: 100px 200px;
-    }
-
-    .project_text2-title {
-        width: 50%;
-    }
-
-    .project_text2-text {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .project_text2 {
-        padding: 100px 100px;
-    }
-
-    .project_text2-text {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .project_text2 {
-        padding: 80px 60px;
-    }
-
-    .project_text2-text-wrap {
-        display: block;
-        margin-top: 40px;
-    }
-
-    .project_text2-title {
-        width: 100%;
-    }
-
-    .project_text2-text {
-        width: 100%;
-        font-size: 16px;
-        line-height: 32px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .project_text2-title {
-        font-size: 32px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .project_text2 {
-        padding: 60px 30px;
-    }
-} */
-
-
-/* -------Jannata Resort text3------- */
-
-/* .project_text3 {
-    width: 100%;
-    padding: 150px 300px;
-    background-color: #FFF;
-    color: var(--color-black-);
-}
-
-.project_text3-title {
-    width: 60%;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.project_text3-text-wrap {
-    width: 100%;
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.project_text3-text {
-    width: 40%;
-    font-size: 20px;
-    line-height: 40px;
-    margin-bottom: 40px;
-    padding-right: 100px;
-}
-
-
-@media screen and (max-height: 700px) {
-    .project_text3 {
-        padding: 100px 200px;
-    }
-
-    .project_text3-title {
-        width: 50%;
-    }
-
-    .project_text3-text {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .project_text3-text {
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .project_text3-title {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .project_text3 {
-        padding: 100px 200px;
-    }
-
-    .project_text3-title {
-        width: 50%;
-    }
-
-    .project_text3-text {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .project_text3 {
-        padding: 100px 100px;
-    }
-
-    .project_text3-text {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .project_text3 {
-        padding: 80px 60px;
-    }
-
-    .project_text3-text-wrap {
-        display: block;
-        margin-top: 40px;
-    }
-
-    .project_text3-title {
-        width: 100%;
-    }
-
-    .project_text3-text {
-        width: 100%;
-        font-size: 16px;
-        line-height: 32px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .project_text3-title {
-        font-size: 32px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .project_text3 {
-        padding: 60px 30px;
-    }
-} */
-
 
 /* -------Jannata Resort prev - next project------- */
 

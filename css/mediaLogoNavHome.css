@@ -99,7 +99,7 @@
 
     /* ------ Nav ------ */
     .navlinks {
-        left: 200px;
+        left: 20%;
     }
 }
 
@@ -152,14 +152,6 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-
-    /* ------ Nav ------ */
-    .navlinks {
-        right: 100px;
-    }
-}
-
 @media screen and (max-width: 900px) {
 
     /* ------ logo ------ */
@@ -188,7 +180,7 @@
     }
 
     .navlinks {
-        bottom: 30%;
+        bottom: 35%;
     }
 
 
