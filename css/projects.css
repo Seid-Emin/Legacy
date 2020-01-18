@@ -241,7 +241,7 @@
     }
 
     .project_intro-header {
-        font-size: 46px;
+        font-size: 50px;
         margin-bottom: 20px;
     }
 
@@ -271,7 +271,7 @@
     }
 
     .project_intro-header {
-        margin-bottom: 15px;
+        margin-bottom: 24px;
     }
 
     .project_intro-website-wrap {
@@ -493,7 +493,7 @@
 
 .project_prevProject-link,
 .project_nextProject-link {
-    font-size: 70px;
+    font-size: 50px;
     color: var(--color-white-);
     font-weight: 600;
 }
@@ -600,7 +600,7 @@
 
     .project_prevProject-link-subText,
     .project_nextProject-link-subText {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .project_prevProject-link-wrap,
@@ -610,7 +610,7 @@
 
     .project_prevProject-link,
     .project_nextProject-link {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
