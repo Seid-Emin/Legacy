@@ -1,0 +1,75 @@
+/* -------Prodotti Furniture project images------- */
+.project_intro-bg_prodottiFurniture {
+    background: url('../../img/works/prodotti/banner.jpg');
+}
+
+.project_bigImage-image_prodottiFurniture {
+    background: url('../../img/works/prodotti/full1.jpg');
+}
+
+
+/* -------Samsara Resort project images------- */
+
+.project_intro-bg_samsaraResort {
+    background: url('../../img/works/samsara/banner.jpg');
+}
+
+
+/* -------Jannata Resort project images------- */
+
+.project_intro-bg_jannataResort {
+    background: url('../../img/works/jannata/banner.jpg');
+}
+
+.project_bigImage-image_jannataResort {
+    background: url('../../img/works/jannata/full1.jpg');
+}
+
+
+/* -------Samsara Resort project images------- */
+
+.project_intro-bg_theRelationshift {
+    background: url('../../img/works/relationshift/banner.jpg');
+}
+
+.project_bigImage-image_theRelationshift {
+    background: url('../../img/works/relationshift/full1.jpg');
+}
+
+
+
+
+
+
+/* ------- Previous Next project ------- */
+.project-prodittiFurniture {
+    background: url('../../img/works/prodotti/banner.jpg');
+}
+
+.project-samsaraResort {
+    background: url('../../img/works/samsara/banner.jpg');
+}
+
+.project-jannataResort {
+    background: url('../../img/works/jannata/banner.jpg');
+}
+
+.project-theRelationshift {
+    background: url('../../img/works/relationshift/banner.jpg');
+}
+
+.project-clorovaProduction {
+    background: url('../../img/works/clorova/banner.jpg');
+}
+
+.project-kokoro {
+    background: url('../../img/works/kokoro/banner.jpg');
+}
+
+.project-apprenticeSearch {
+    background: url('../../img/works/apprentice-search/banner.jpg');
+}
+
+.project-mcd {
+    background: url('../../img/works/mcd/banner.jpg');
+}
